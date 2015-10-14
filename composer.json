@@ -1,0 +1,27 @@
+{
+  "name": "pszczekutowicz/dependency-injection",
+  "description": "Dependency injection container",
+  "authors": [
+    {
+      "name": "Paweł Szczekutowicz",
+      "email": "pszczekutowicz@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "pszczekutowicz\\Di\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "@stable",
+    "squizlabs/PHP_CodeSniffer": "@stable"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "pszczekutowicz\\DiTest\\": "test/"
+    }
+  }
+}
